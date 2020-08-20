@@ -33,6 +33,9 @@ In order to use the debugger:
 
 - to step an instruction at a time: `si`
 - to print a string in memory at location r0: `x/s $r0`
+  - Read more [here](https://visualgdb.com/gdbreference/commands/x) or [here](https://sourceware.org/gdb/current/onlinedocs/gdb/Memory.html).
+
+To analyze the logic of the program in one convenient screen, run `objdump -d`. To store it in a file, redirect the output `objdump --disassemble >dumped_program.txt`.
 
 ## To Get Credit
 
